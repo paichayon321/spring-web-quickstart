@@ -1,5 +1,5 @@
 Quarkus guide: https://quarkus.io/guides/spring-web
-# spring-web-quickstarta
+# spring-web-quickstart
 
 
 # Compile with Swagger-UI and Build as uber-jar: 
