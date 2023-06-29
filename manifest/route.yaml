@@ -2,15 +2,15 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: spring-web-quickstart
+  name: <deployment_name>
   labels:
-    app: spring-web-quickstart
+    app: <deployment_name>
 spec:
-  host: spring-web-quickstart-demo.apps.cluster-f6kmn.f6kmn.sandbox2891.opentlc.com
+  host: <deployment_name>-<namespace>.apps.cluster-f6kmn.f6kmn.sandbox2891.opentlc.com
   path: /greeting
   to:
     kind: Service
-    name: spring-web-quickstart
+    name: <deployment_name>
     weight: 100
   port:
     targetPort: 8080-tcp
