@@ -19,6 +19,7 @@ spec:
       containers:
         - name: <deployment_name>
           image: <image>
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
               protocol: TCP
