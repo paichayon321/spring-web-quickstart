@@ -6,6 +6,7 @@ metadata:
   name: <deployment_name>
   labels:
     app: <deployment_name>
+    deployment: <deployment_name>
 spec:
   ports:
     - name: 8080-tcp
@@ -15,4 +16,4 @@ spec:
   type: ClusterIP
   selector:
     app: <deployment_name>
-    deployment: <deployment_name>
+
