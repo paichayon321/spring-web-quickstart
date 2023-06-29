@@ -1,0 +1,19 @@
+#oc expose deployment spring-web-quickstart -n demo
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: spring-web-quickstart
+  namespace: demo
+  labels:
+    app: spring-web-quickstart
+spec:
+  ports:
+    - name: 8080-tcp
+      protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: ClusterIP
+  selector:
+    app: spring-web-quickstart
+    deployment: spring-web-quickstart

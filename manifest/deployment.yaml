@@ -1,0 +1,24 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: spring-web-quickstart
+  labels:
+    app: spring-web-quickstart
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spring-web-quickstart
+  template:
+    metadata:
+      labels:
+        app: spring-web-quickstart
+    spec:
+      imagePullSecrets:
+      - name: registry-secret
+      containers:
+        - name: spring-web-quickstart
+          image: lab101.ddns.net:8083/workshop/demo/spring-web-quickstart:1.0.0
+          ports:
+            - containerPort: 8080
+              protocol: TCP

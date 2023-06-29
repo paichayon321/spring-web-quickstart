@@ -1,0 +1,21 @@
+#oc expose service --path /greeting spring-web-quickstart -n demo
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: spring-web-quickstart
+  namespace: demo
+  labels:
+    app: spring-web-quickstart
+spec:
+  host: spring-web-quickstart-demo.apps.cluster-f6kmn.f6kmn.sandbox2891.opentlc.com
+  path: /greeting
+  to:
+    kind: Service
+    name: spring-web-quickstart
+    weight: 100
+  port:
+    targetPort: 8080-tcp
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None
