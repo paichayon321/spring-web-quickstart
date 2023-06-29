@@ -3,7 +3,6 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: spring-web-quickstart
-  namespace: demo
   labels:
     app: spring-web-quickstart
 spec:
