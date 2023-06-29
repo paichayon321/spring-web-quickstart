@@ -3,9 +3,9 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: spring-web-quickstart
+  name: <deployment_name>
   labels:
-    app: spring-web-quickstart
+    app: <deployment_name>
 spec:
   ports:
     - name: 8080-tcp
@@ -14,5 +14,5 @@ spec:
       targetPort: 8080
   type: ClusterIP
   selector:
-    app: spring-web-quickstart
-    deployment: spring-web-quickstart
+    app: <deployment_name>
+    deployment: <deployment_name>
