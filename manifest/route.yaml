@@ -6,7 +6,7 @@ metadata:
   labels:
     app: <deployment_name>
 spec:
-  host: <deployment_name>-<namespace>.apps.cluster-f6kmn.f6kmn.sandbox2891.opentlc.com
+  host: <host>
   path: /greeting
   to:
     kind: Service
