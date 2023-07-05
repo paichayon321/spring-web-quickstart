@@ -7,7 +7,7 @@ metadata:
     app: <deployment_name>
 spec:
   host: <host>
-  path: /greeting
+  path: /
   to:
     kind: Service
     name: <deployment_name>
