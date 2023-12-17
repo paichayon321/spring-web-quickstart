@@ -1,5 +1,5 @@
 
-Quarkus guide: https://quarkus.io/guides/spring-web dev6
+Quarkus guide: https://quarkus.io/guides/spring-web dev7
 
 
 # spring-web-quickstart
