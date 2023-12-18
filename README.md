@@ -1,6 +1,6 @@
 
 
-Quarkus guide: https://quarkus.io/guides/spring-web feature1344
+Quarkus guide: https://quarkus.io/guides/spring-web featur
 
 
 
