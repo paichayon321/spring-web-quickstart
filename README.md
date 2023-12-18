@@ -1,4 +1,4 @@
-Quarkus guide: https://quarkus.io/guides/spring-web dev
+Quarkus guide: https://quarkus.io/guides/spring-web dev1
 s://quarkus.io/guides/spring-web  main2
 
 # spring-web-quickstart
