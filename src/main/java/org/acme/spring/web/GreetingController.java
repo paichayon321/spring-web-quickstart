@@ -11,7 +11,7 @@ public class GreetingController {
 
     @GetMapping
     public String hello() {
-        return "hello-feature-test2-16:57";
+        return "hello";
     }
 }
 
