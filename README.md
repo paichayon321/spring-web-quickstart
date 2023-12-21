@@ -1,4 +1,4 @@
-Quarkus guide: https://quarkus.io/guides/spring-web aww
+Quarkus guide: https://quarkus.io/guides/spring-web awwjj
 
 # spring-web-quickstart
 
