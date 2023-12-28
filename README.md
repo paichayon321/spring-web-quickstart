@@ -1,4 +1,4 @@
-Quarkus guide: https://quarkus.io/guides/spring-web casd2
+Quarkus guide: https://quarkus.io/guides/spring-web casd23
 
 # spring-web-quickstart
 
