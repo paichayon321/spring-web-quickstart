@@ -15,7 +15,9 @@ public class GreetingControllerTest {
           .when().get("/greeting")
           .then()
              .statusCode(200)
-             .body(is("hello-dev-16:55"));
+
+             .body(is("hello-feature"));
+
     }
 
 }
