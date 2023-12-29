@@ -1,4 +1,4 @@
-Quarkus guide: https://quarkus.io/guides/spring-web 1234ddd
+Quarkus guide: https://quarkus.io/guides/spring-web
 
 
 
