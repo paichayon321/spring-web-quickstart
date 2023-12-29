@@ -1,4 +1,4 @@
-Quarkus guide: https://quarkus.io/guides/spring-web v23456
+Quarkus guide: https://quarkus.io/guides/spring-web
 
 
 
